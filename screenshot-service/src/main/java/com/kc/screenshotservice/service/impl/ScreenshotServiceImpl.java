@@ -18,7 +18,7 @@ public class ScreenshotServiceImpl implements ScreenshotService {
 	@Override
 	public String captureScreenshot(String url) {
 		try {
-			System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "../chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 
