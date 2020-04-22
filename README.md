@@ -26,7 +26,7 @@ Steps:
 11. Enter the website URL of which you need the screenshot. Then click execute button.
 12. This process takes approximately 20 seconds and will return the base64 encoded string of the screenshot image. Incase if you see another chrome window opening, please don't panic. It's a part of the screenshot procedure.
 13. In order to view the screenshot, I've attached a basic ViewScreenshot.html file.
-14. Open the ViewScreenshot.html file in any text editor. In the img tag, just after base64; page the string you received as response from the api.
+14. Open the ViewScreenshot.html file in any text editor. In the img tag, replace "<%INSERT_CODE_HERE%>" with the string you received as response from the api.
 15. Save the file and open the file in a browser.
 16. The image on the webpage is a screenshot of the webpage you requested for.
 
