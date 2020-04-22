@@ -26,7 +26,7 @@ public class ScreenshotServiceImpl implements ScreenshotService {
 			Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("Screenshot").save();
 			Thread.sleep(3000);
 
-			byte[] fileContent = FileUtils.readFileToByteArray(new File("./screenshots/Screenshot.png"));
+			byte[] fileContent = FileUtils.readFileToByteArray(new File("../screenshots/Screenshot.png"));
 			String encodedString = Base64.getEncoder().encodeToString(fileContent);
 
 			driver.quit();
