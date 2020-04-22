@@ -20,7 +20,7 @@ Steps:
 5. If maven is installed on your computer, the command would run successfully and you would see a message "BUILD SUCCESS".
 6. Once you see this message, change the directory by typing the following command "cd target".
 7. To run the application, type the following command "java -jar screenshot-service-0.0.1-SNAPSHOT.jar".
-8. This would run the project on tomcat port 8081.
+8. The project is configured to run on tomcat port 8081.
 9. Open a browser window and goto the following link "http://localhost:8081/screenshot/swagger-ui.html". This is the link for swagger.
 10. Expand the screenshot-controller and click on the GET method link. Click on try out button.
 11. Enter the website URL of which you need the screenshot. Then click execute button.
@@ -30,7 +30,11 @@ Steps:
 15. Save the file and open the file in a browser.
 16. The image on the webpage is a screenshot of the webpage you requested for.
 
+=========================================
+STEPS STOP THE PROJECT
+=========================================
+
+Steps:
+1. Press Ctrl + C on the command prompt. This will stop tomcat and shutdown the application.
+
 Thank You.
-
-
-
