@@ -8,11 +8,14 @@ License: Free
 STEPS TO DONWLOAD, SETUP AND RUN PROJECT
 =========================================
 
-Steps:
+Prerequisite:
+1. Maven
+2. Google Chrome Browser
 
+Steps:
 1. Download the project by clicking on the Clone or Download Button and clicking the Download ZIP.
 2. Once the download is complete, extract the files on to your local directory.
-3. Open command prompt from your local directory where you have extracted the files.
+3. Open the screenshot-service folder. Once inside the folder then open command prompt from your local directory where you have   extracted the files.
 4. Run the following command "mvn clean install". (Please Note: Maven should be installed on your computer for this command to work).
 5. If maven is installed on your computer, the command would run successfully and you would see a message "BUILD SUCCESS".
 6. Once you see this message, change the directory by typing the following command "cd target".
