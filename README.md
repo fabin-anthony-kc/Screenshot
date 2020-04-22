@@ -35,6 +35,8 @@ STEPS STOP THE PROJECT
 =========================================
 
 Steps:
-1. Press Ctrl + C on the command prompt. This will stop tomcat and shutdown the application.
+1. Press Ctrl + C on the command prompt. This will stop tomcat and shutdown the application. (Tip: If it doesn't stop the first time, try pressing Ctrl + C couple of times and it will).
 
 Thank You.
+
+:)
