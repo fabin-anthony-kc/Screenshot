@@ -28,7 +28,7 @@ Steps:
 13. In order to view the screenshot, I've attached a basic ViewScreenshot.html file.
 14. Open the ViewScreenshot.html file in any text editor. In the img tag, just after base64; page the string you received as response from the api.
 15. Save the file and open the file in a browser.
-16. You image on the webpage is a screenshot of the webpage you requested for.
+16. The image on the webpage is a screenshot of the webpage you requested for.
 
 Thank You.
 
