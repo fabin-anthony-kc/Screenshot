@@ -23,7 +23,7 @@ public class ScreenshotServiceImpl implements ScreenshotService {
 			driver.manage().window().maximize();
 
 			driver.get(url);
-			Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("Screenshot").save();
+			Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("Screenshot").save("../screenshots/");
 			Thread.sleep(3000);
 
 			byte[] fileContent = FileUtils.readFileToByteArray(new File("../screenshots/Screenshot.png"));
