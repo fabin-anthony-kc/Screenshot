@@ -11,6 +11,7 @@ STEPS TO DONWLOAD, SETUP AND RUN PROJECT
 Prerequisite:
 1. Maven
 2. Google Chrome Browser
+3. Write/Read access on Local Drive
 
 Steps:
 1. Download the project by clicking on the Clone or Download Button and clicking the Download ZIP.
