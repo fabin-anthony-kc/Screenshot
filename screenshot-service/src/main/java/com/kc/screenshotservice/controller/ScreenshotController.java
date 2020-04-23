@@ -16,7 +16,7 @@ public class ScreenshotController {
 	private ScreenshotService screenshotService;
 
 	@GetMapping("/capture")
-	public String getScreenshotImage(@RequestParam String url) {
+	public String getScreenshotImage(@RequestParam(required = true) String url) {
 		try {
 			return this.screenshotService.captureScreenshot(url);
 		} catch (Exception e) {
