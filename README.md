@@ -24,7 +24,7 @@ Steps:
 9. Open a browser window and goto the following link "http://localhost:8081/screenshot/swagger-ui.html". This is the link for swagger.
 10. Expand the screenshot-controller and click on the GET method link. Click on try out button.
 11. Enter the website URL of which you need the screenshot. Then click execute button.
-12. This process takes approximately 20 seconds and will return the base64 encoded string of the screenshot image. Incase if you see another chrome window opening, please don't panic. It's a part of the screenshot procedure.
+12. This process takes appoximately 10 seconds and will return the base64 encoded string of the screenshot image. Incase if you see another chrome window opening, please don't panic. It's a part of the screenshot procedure.
 13. In order to view the screenshot, I've attached a basic ViewScreenshot.html file.
 14. Open the ViewScreenshot.html file in any text editor. In the img tag, replace "<%INSERT_CODE_HERE%>" with the string you received as response from the api.
 15. Save the file and open the file in a browser.
@@ -35,7 +35,7 @@ STEPS STOP THE PROJECT
 =========================================
 
 Steps:
-1. Press Ctrl + C on the command prompt. This will stop tomcat and shutdown the application. (Tip: If it doesn't stop the first time, try pressing Ctrl + C couple of times and it will).
+1. Press Ctrl + C twice on the command prompt. This will stop tomcat and shutdown the application.
 
 Thank You.
 
